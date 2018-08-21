@@ -1,0 +1,43 @@
+CS349 A3 Marking Scheme
+
+TA:	Eldar Khalilov
+Email: ekhalilov@gsd.uwaterloo.ca 
+
+
+5/5	Meaningful README. (2)  db.json set up for testing. (3)
+
+10/10	Display
+	/5	Songs are displayed
+	/5	CSS is applied
+
+8/15	Tag Maintenance
+	5/5	Interface allows user to define/add a list of tags.
+	0/5	Tag list survives to the next session.
+	3/5	Interface is intuitive and attractive.
+
+11/20	Tag assignment
+	3/5	Tags can be assigned to individual songs.
+	5/5	A song can have multiple tags.
+	3/5	The assignment interface is intuitive, attractive, easy to use.
+	0/5	Tag assignments survive to the next session.
+
+10/15	Rating assignment
+	5/5	Ratings can be assigned to individual songs.
+	5/5	The assignment interface is intuitive, attractive, easy to use.
+	0/5	Ratings survive to the next session.
+
+0/15	Search
+	/5	Search interface facilitates searching by tag and rating.
+	/5	Search interface is intuitive, attractive, easy to use.
+	/5	Search results are displayed in an attractive manner.
+
+5/20	Enhancements
+	/10	Functionality: Works well to accomplish intended effects.
+	/5	UI: Well-designed interactions.	
+	/5	UI: Polished presentation.
+	Scale factor:  High ambition: 1; Medium ambition: .75;  Low ambition: .5
+
+
+
+Total:
+49/100

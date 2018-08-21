@@ -1,0 +1,40 @@
+CS349 A2.2 Marking Scheme
+
+TA:	Dallas Fraser
+Email: d6fraser@uwaterloo.ca
+
+
+Entity Relationship Model
+
+3/3	Includes MVC infrastructure or extends Observable
+	1/1	List of objects implementing IView (or extends ...)
+	1/1	Method to add views to the list
+	1/1	Update all views at end of public methods
+		that change the model
+
+4/4	Methods needed by controllers
+	1/1	Add a new entity
+	1/1	Give an entity a name
+	1/1	Specify a relationship between two entities
+	1/1	Specify a new position for an entity
+
+
+2/4	Methods needed by views
+	0/1	Get a list of entities 
+		(or some way of iterating through them) - does not seem way to iterate through list of entities
+	0/1	Given an entity, get a list of related entities - cannot conclude an entities relationships for a given entity
+	1/1	Given an entity, get information such as
+		name, location
+	1/1	Given a relationship (arrow), get the entities
+		it connects
+
+4/4	Tests
+	One mark for each of four tests that:
+	-	Is different from the others
+	-	Runs and "passes"
+	-	Is of the form (a) create a new object, (b) call
+		one or more methods that change state, and (c) 
+		verify the expected results.
+
+Total:
+13/15
